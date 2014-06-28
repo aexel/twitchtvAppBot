@@ -1,0 +1,61 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRC", "IRC.csproj", "{EAA2EBA6-4510-498D-9FF2-267FF825FD94}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Examples", "..\Samples\Examples.csproj", "{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "..\Test\Test.csproj", "{B2DF3526-5617-4DA7-BA5F-A81074583D9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiTest", "..\MultiTest\MultiTest.csproj", "{7CD55379-5C17-4CCE-B5B7-B1908373917C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug_SSL|Any CPU = Debug_SSL|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Public|Any CPU = Public|Any CPU
+		Release|Any CPU = Release|Any CPU
+		SSL|Any CPU = SSL|Any CPU
+		Trace|Any CPU = Trace|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Debug_SSL|Any CPU.ActiveCfg = Debug_SSL|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Debug_SSL|Any CPU.Build.0 = Debug_SSL|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Public|Any CPU.ActiveCfg = Public|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Public|Any CPU.Build.0 = Public|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.SSL|Any CPU.ActiveCfg = SSL|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.SSL|Any CPU.Build.0 = SSL|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Trace|Any CPU.ActiveCfg = Trace|Any CPU
+		{EAA2EBA6-4510-498D-9FF2-267FF825FD94}.Trace|Any CPU.Build.0 = Trace|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Debug_SSL|Any CPU.ActiveCfg = Debug_SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Debug_SSL|Any CPU.Build.0 = Debug_SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Public|Any CPU.ActiveCfg = SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Public|Any CPU.Build.0 = SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.SSL|Any CPU.ActiveCfg = SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.SSL|Any CPU.Build.0 = SSL|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Trace|Any CPU.ActiveCfg = Release|Any CPU
+		{0477243B-441B-4BAE-BED3-ACA52B2C7E1A}.Trace|Any CPU.Build.0 = Release|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.Debug_SSL|Any CPU.ActiveCfg = Debug_SSL|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.Public|Any CPU.ActiveCfg = SSL|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.SSL|Any CPU.ActiveCfg = SSL|Any CPU
+		{B2DF3526-5617-4DA7-BA5F-A81074583D9C}.Trace|Any CPU.ActiveCfg = SSL|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.Debug_SSL|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.Public|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.SSL|Any CPU.ActiveCfg = Release|Any CPU
+		{7CD55379-5C17-4CCE-B5B7-B1908373917C}.Trace|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

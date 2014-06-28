@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ReferencePath>C:\Development\C#\seclib-1.0\Signed_Builds\1.1\;D:\Net\mentalis\;D:\Net\seclib\bin\Release\;C:\Documents and Settings\ahunter.SHARKBITE\My Documents\Visual Studio Projects\Thresher\IRC\lib\;C:\Documents and Settings\ahunter.SHARKBITE\My Documents\Visual Studio Projects\IRC\bin\Debug\;C:\Microsoft.NET\log4net\release\bin\;C:\Microsoft.NET\NUnit\bin\;C:\Microsoft.NET\mentalis\;C:\Documents and Settings\ahunter.SHARKBITE\My Documents\Visual Studio Projects\Secure Socket\bin\Release\;C:\Microsoft.NET\NUnit V2.0\bin\;C:\Program Files\NUnit V2.0\bin\;D:\Net\NUnit\bin\;D:\Net\NUnit V2.0\bin\;C:\Development\C#\NUnit V2.1\bin\;C:\Development\C#\Mentalis\Signed_Builds\1.0\</ReferencePath>
+    <CopyProjectDestinationFolder />
+    <CopyProjectUncPath />
+    <CopyProjectOption>0</CopyProjectOption>
+    <ProjectView>ProjectFiles</ProjectView>
+    <ProjectTrust>0</ProjectTrust>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Public|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Trace|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>true</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_SSL|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SSL|AnyCPU' ">
+    <EnableASPDebugging>false</EnableASPDebugging>
+    <EnableASPXDebugging>false</EnableASPXDebugging>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+    <EnableSQLServerDebugging>false</EnableSQLServerDebugging>
+    <RemoteDebugEnabled>false</RemoteDebugEnabled>
+    <RemoteDebugMachine />
+    <StartAction>Project</StartAction>
+    <StartArguments />
+    <StartPage />
+    <StartProgram />
+    <StartURL />
+    <StartWorkingDirectory />
+    <StartWithIE>false</StartWithIE>
+  </PropertyGroup>
+</Project>

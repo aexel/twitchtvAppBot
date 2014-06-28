@@ -1,0 +1,306 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <ProjectType>Local</ProjectType>
+    <ProductVersion>7.0.9466</ProductVersion>
+    <SchemaVersion>1.0</SchemaVersion>
+    <ProjectGuid>{EAA2EBA6-4510-498D-9FF2-267FF825FD94}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ApplicationIcon />
+    <AssemblyKeyContainerName />
+    <AssemblyName>Sharkbite.Thresher</AssemblyName>
+    <AssemblyOriginatorKeyFile />
+    <DefaultClientScript>JScript</DefaultClientScript>
+    <DefaultHTMLPageLayout>Grid</DefaultHTMLPageLayout>
+    <DefaultTargetSchema>IE50</DefaultTargetSchema>
+    <DelaySign>false</DelaySign>
+    <OutputType>Library</OutputType>
+    <RootNamespace>Sharkbite.Irc</RootNamespace>
+    <StartupObject />
+    <FileUpgradeFlags>
+    </FileUpgradeFlags>
+    <TargetFrameworkVersion>v2.0</TargetFrameworkVersion>
+    <UpgradeBackupLocation>
+    </UpgradeBackupLocation>
+    <OldToolsVersion>0.0</OldToolsVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DocumentationFile>doc.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>3</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE</DefineConstants>
+    <DocumentationFile>doc.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Public|AnyCPU' ">
+    <OutputPath>bin\Public\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Trace|AnyCPU' ">
+    <OutputPath>bin\Trace\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants />
+    <DocumentationFile />
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>1</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug_SSL|AnyCPU' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>false</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>DEBUG;TRACE;SSL</DefineConstants>
+    <DocumentationFile>doc.xml</DocumentationFile>
+    <DebugSymbols>true</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>false</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'SSL|AnyCPU' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+    <BaseAddress>285212672</BaseAddress>
+    <CheckForOverflowUnderflow>true</CheckForOverflowUnderflow>
+    <ConfigurationOverrideFile />
+    <DefineConstants>TRACE;SSL</DefineConstants>
+    <DocumentationFile>doc.xml</DocumentationFile>
+    <DebugSymbols>false</DebugSymbols>
+    <FileAlignment>4096</FileAlignment>
+    <Optimize>true</Optimize>
+    <RegisterForComInterop>false</RegisterForComInterop>
+    <RemoveIntegerChecks>false</RemoveIntegerChecks>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>none</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>AllRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="nunit.framework">
+      <Name>nunit.framework</Name>
+      <HintPath>D:\Net\NUnit\bin\nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="Org.Mentalis.Security">
+      <Name>Org.Mentalis.Security</Name>
+      <HintPath>..\..\..\..\..\..\Development\C#\seclib-1.0\Signed_Builds\1.1\Org.Mentalis.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <Name>System</Name>
+    </Reference>
+    <Reference Include="System.Data">
+      <Name>System.Data</Name>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Name>System.XML</Name>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\ChannelModeInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\CommandBuilder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Connection.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\ConnectionArgs.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Ctcp\CtcpListener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Ctcp\CtcpResponder.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Ctcp\CtcpSender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Ctcp\CtcpUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccChatSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccFileInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccFileSession.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccFileSessionManager.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccListener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccUserInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Dcc\DccUtil.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Delegates.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Enums.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Identd.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\IParser.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Listener.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\NameGenerator.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\ReplyCode.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Rfc2812Util.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\Sender.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\ServerProperties.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\TextColor.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\UserInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="source\WhoisInfo.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\CtcpListenerTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\CtcpSenderTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\DccChatSessionTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\DccListenerTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\DccUtilTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\IdentdTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\ListenerTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\RFC2812UtilTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\SenderTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tests\TextColorTest.cs">
+      <SubType>Code</SubType>
+    </Compile>
+    <Content Include="docs\design\changelog.txt" />
+    <Content Include="docs\design\dcc.txt" />
+    <Content Include="docs\design\gpl.txt" />
+    <Content Include="docs\design\readme.txt" />
+    <Content Include="docs\design\Unimplemented_commands.txt" />
+    <Content Include="docs\reference\Dcc negotiation and connection.htm" />
+    <Content Include="docs\reference\mirc_color.txt" />
+    <Content Include="docs\reference\rfc1413.txt" />
+    <Content Include="docs\reference\rfc1459.txt" />
+    <Content Include="docs\reference\rfc2810.txt" />
+    <Content Include="docs\reference\rfc2811.txt" />
+    <Content Include="docs\reference\rfc2812.txt" />
+    <Content Include="docs\reference\The Client-To-Client Protocol %28CTCP%29.htm" />
+    <None Include="docs\design\developer.notes" />
+    <None Include="docs\design\mentalis.license" />
+    <None Include="docs\reference\server_properties.pdf" />
+    <None Include="IRC.exe.config" />
+    <None Include="makefile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="docs\api\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PreBuildEvent />
+    <PostBuildEvent />
+  </PropertyGroup>
+</Project>

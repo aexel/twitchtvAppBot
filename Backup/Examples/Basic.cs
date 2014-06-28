@@ -70,10 +70,10 @@ namespace Sharkbite.Irc.Examples
 				string server = "irc.twitch.tv";
                 
                 //oauth for twitch
-                string oauth = "oauth:8zqhxcumnzwugxi1b0da2d0q5hezarf";
+                string oauth = "";
 
 				//The bot's nick on IRC
-				string nick = "irwee";
+				string nick = "";
 
 				//Fire up the Ident server for those IRC networks
 				//silly enough to use it.
